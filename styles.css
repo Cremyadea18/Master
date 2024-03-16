@@ -7,12 +7,24 @@ flex-direction: column;
 place-content: center;
 }
 
+.container {
+width: 80%;
+height: auto;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+place-content: center;
+margin-top: 20px;
+}
+
 .second-container {
 width: 800px;
 height: 400px;
 place-content: center;
 place-items: center;
-border: 1rem solid black;
+border: 1px solid black;
+margin-bottom: 40px;
 }
 
 .title-1 {
