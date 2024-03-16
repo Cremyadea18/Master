@@ -7,11 +7,24 @@ flex-direction: column;
 place-content: center;
 }
 
+.container {
+width: 80%;
+height: auto;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+place-content: center;
+margin-top: 20px;
+}
+
 .second-container {
 width: 800px;
 height: 400px;
 place-content: center;
 place-items: center;
+border: 1px solid black;
+margin-bottom: 40px;
 }
 
 .title-1 {
@@ -20,6 +33,14 @@ font-weight: 800;
 font-family: sans-serif;
 justify-content: center;
 color: brown;
+}
+
+.title-2 {
+font-size: 35px;
+font-weight: 600;
+font-family: sans-serif;
+justify-content: center;
+color: burlywood;
 }
 
 .paragraph {
